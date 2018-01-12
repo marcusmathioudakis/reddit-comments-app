@@ -3,7 +3,7 @@ a small RESTFUL API that returns json data from the Reddit API.
 # Installation
 - to run the server you must first install node.js. The node package manager npm should be installed automatically as part of this.
 - Once node is installed, in the root of the server folder directory execute: npm install. This should install all project dependencies locally, in the node_modules folder.
-- Copy the config.json file to the root of the server folder. This file contains API access credentials for the Reddit API, and you should have received it in an email from the developer.
+- Copy the reddit_api_credentials.json file to the root of the server folder (you should have received it in an email from the developer).
 
 # Starting the server
 - to run the server, in the root of the server folder execute: npm start
