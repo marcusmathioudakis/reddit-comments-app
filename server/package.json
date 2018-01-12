@@ -1,0 +1,17 @@
+{
+  "name": "episodeAPI",
+  "description": "API for accessing silicon valley episode data",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2",
+    "snoowrap": "^1.15.2"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./src/server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
